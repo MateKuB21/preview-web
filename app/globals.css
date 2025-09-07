@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{ --brand: #e10600; }
+html, body { height: 100%; }
+body { color-scheme: light; }
+a { text-decoration: none; }
