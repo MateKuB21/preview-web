@@ -11,3 +11,8 @@ npm run dev
 - Tailwind CSS
 - Ant Design (theme colorPrimary = #e10600)
 - `app/page.tsx` contains exactly the current preview UI code
+
+ู## WEB
+```
+https://matekub21.github.io/preview-web/
+```

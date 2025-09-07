@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-
+const placeholder = "/static/img/placeholder-image.png";
 // ---------- icons ----------
 function IconPhone(props) {
   return (
@@ -1288,5 +1288,3 @@ function categoryTiles(locale) {
         { title: "Specialty" },
       ];
 }
-
-const placeholder = "https://picsum.photos/seed/lubeco/800/600";

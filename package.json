@@ -8,8 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build && powershell -Command \"Copy-Item -Path out/index.html -Destination out/404.html\"",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "antd": "^5.17.0",
